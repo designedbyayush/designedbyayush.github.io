@@ -2,30 +2,30 @@
   /* Colors / Pumps / Syrups */
 
   /* Primary */
-  --sakura: hsl(335, 95%, 65%);
-  --amethyst: hsl(255, 80%, 65%);
+  --raspberry: hsl(335, 95%, 65%);
+  --juniper: hsl(255, 80%, 65%);
 
   /* Neutrals */
-  --ivory: hsl(0, 0%, 100%);
-  --obsidian: hsl(255, 30%, 20%);
-  --graphite: hsl(255, 10%, 45%);
+  --lychee: hsl(0, 0%, 100%);
+  --date: hsl(255, 30%, 20%);
+  --olive: hsl(255, 10%, 45%);
 
   /* Shaded */
-  --orchid: hsl(335, 80%, 60%);
-  --veronica: hsl(255, 80%, 60%);
+  --strawberry: hsl(335, 80%, 60%);
+  --currant: hsl(255, 80%, 60%);
 
   /* Tinted */
-  --blush: hsl(335, 100%, 99%);
-  --lilac: hsl(255, 100%, 98%);
+  --cranberry: hsl(335, 100%, 99%);
+  --damson: hsl(255, 100%, 98%);
 
   /* Footer */
-  --aubergine: hsl(255, 100%, 15%);
+  --mulberry: hsl(255, 100%, 15%);
 
   /* Button */
-  --candy: hsl(335, 100%, 70%);
+  --cherry: hsl(335, 100%, 70%);
 
   /* Shadows */
-  --shadow: hsla(255, 20%, 60%, 0.08);
+  --jamun: hsla(255, 20%, 60%, 0.08);
 
   /* *************************** */
 
@@ -34,9 +34,9 @@
   /* Card */
   --shot: 1px 1px 57px;
 
-  --decaf: var(--shot) 0 var(--shadow);
-  --single: var(--shot) 50px var(--shadow);
-  --double: var(--shot) 80px var(--shadow);
+  --decaf: var(--shot) 0 var(--jamun);
+  --single: var(--shot) 50px var(--jamun);
+  --double: var(--shot) 80px var(--jamun);
 
   /* Button */
   --tea: -5px 30px 20px -20px hsla(335, 100%, 67%, 0.38);
@@ -181,7 +181,7 @@ html {
   font-family: Poppins, sans-serif;
   font-size: var(--have-here);
   font-weight: var(--light-ice);
-  background: var(--ivory);
+  background: var(--lychee);
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -213,12 +213,12 @@ html {
 }
 /* Text selection */
 ::selection {
-  background: var(--sakura);
-  color: var(--ivory);
+  background: var(--raspberry);
+  color: var(--lychee);
 }
 ::-moz-selection {
-  background: var(--sakura);
-  color: var(--ivory);
+  background: var(--raspberry);
+  color: var(--lychee);
 }
 
 /* Section */
@@ -248,12 +248,12 @@ html {
   font-weight: var(--ice);
   line-height: var(--no-sugar);
   letter-spacing: var(--whip);
-  color: var(--obsidian);
+  color: var(--date);
   margin-bottom: 20px;
   transition: var(--default);
 }
 .center-heading.colored .section-title {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .center-text {
   text-align: center;
@@ -261,15 +261,15 @@ html {
   font-weight: var(--light-ice);
   line-height: var(--light-sugar);
   letter-spacing: var(--extra-whip);
-  color: var(--graphite);
+  color: var(--olive);
   margin-bottom: 30px;
 }
 .center-text.colored {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .center-text p {
   font-size: var(--have-here);
-  color: var(--graphite);
+  color: var(--olive);
   margin-bottom: 50px;
 }
 
@@ -330,7 +330,7 @@ p a {
 }
 p a:hover,
 p a:focus {
-  color: var(--amethyst);
+  color: var(--juniper);
 }
 
 /* Paragraph links */
@@ -343,8 +343,8 @@ a.main-button-slider {
   font-size: var(--demi);
   border-radius: var(--whole-cream);
   padding: 17px 32px;
-  background-color: var(--sakura);
-  color: var(--ivory);
+  background-color: var(--raspberry);
+  color: var(--lychee);
   font-weight: var(--light-ice);
   letter-spacing: var(--extra-whip);
   box-shadow: var(--tea);
@@ -352,7 +352,7 @@ a.main-button-slider {
 }
 a.main-button-slider:focus,
 a.main-button-slider:hover {
-  background-color: var(--candy);
+  background-color: var(--cherry);
   transform: translate(0, -7.5px);
   box-shadow: none;
 }
@@ -362,8 +362,8 @@ a.main-button {
   font-size: var(--have-here);
   border-radius: var(--non-fat);
   padding: 1rem 1.5rem;
-  background-color: var(--amethyst);
-  color: var(--ivory);
+  background-color: var(--juniper);
+  color: var(--lychee);
   letter-spacing: var(--whip);
   -webkit-transition: var(--default);
   transition: var(--default);
@@ -371,7 +371,7 @@ a.main-button {
 }
 a.main-button:focus,
 a.main-button:hover {
-  background-color: var(--sakura);
+  background-color: var(--raspberry);
 }
 
 /* Header */
@@ -451,7 +451,7 @@ a.main-button:hover {
   line-height: var(--stevia);
   letter-spacing: var(--whip);
   display: block;
-  color: var(--ivory);
+  color: var(--lychee);
   -webkit-transition: var(--default);
   transition: var(--default);
   height: 40px;
@@ -459,7 +459,7 @@ a.main-button:hover {
 }
 .header-area .main-nav .nav li a:focus,
 .header-area .main-nav .nav li a:hover {
-  color: var(--orchid);
+  color: var(--strawberry);
 }
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
@@ -478,7 +478,7 @@ a.main-button:hover {
 .header-area .main-nav .menu-trigger span:before {
   -webkit-transition: var(--button-transition);
   transition: var(--button-transition);
-  background-color: var(--graphite);
+  background-color: var(--olive);
   display: block;
   position: absolute;
   width: 30px;
@@ -489,7 +489,7 @@ a.main-button:hover {
 .header-area .main-nav .menu-trigger span:before {
   -webkit-transition: var(--button-transition);
   transition: var(--button-transition);
-  background-color: var(--graphite);
+  background-color: var(--olive);
   display: block;
   position: absolute;
   width: 30px;
@@ -526,12 +526,12 @@ a.main-button:hover {
 .header-area .main-nav .menu-trigger.active span:before {
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: var(--graphite);
+  background-color: var(--olive);
 }
 .header-area .main-nav .menu-trigger.active span:after {
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: var(--graphite);
+  background-color: var(--olive);
 }
 .header-area.header-sticky {
   min-height: 80px;
@@ -539,7 +539,7 @@ a.main-button:hover {
 }
 @media (max-width: 991px) {
   .header-area.header-sticky {
-    background: var(--ivory);
+    background: var(--lychee);
   }
   .header-area.header-sticky:focus,
   .header-area.header-sticky:hover {
@@ -555,10 +555,10 @@ a.main-button:hover {
   margin-top: 20px !important;
 }
 .header-area.header-sticky .nav li a {
-  color: var(--graphite);
+  color: var(--olive);
 }
 .header-area.header-sticky .nav li a.active {
-  color: var(--orchid);
+  color: var(--strawberry);
 }
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -603,7 +603,7 @@ a.main-button:hover {
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: var(--ivory);
+    background: var(--lychee);
     border-bottom: 1px solid #eee;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -613,13 +613,13 @@ a.main-button:hover {
     height: 60px !important;
     padding: 0 !important;
     border: none !important;
-    background: var(--ivory) !important;
-    color: var(--graphite) !important;
+    background: var(--lychee) !important;
+    color: var(--olive) !important;
   }
   .header-area .main-nav .nav li a:focus,
   .header-area .main-nav .nav li a:hover {
-    background: var(--sakura) !important;
-    color: var(--ivory) !important;
+    background: var(--raspberry) !important;
+    color: var(--lychee) !important;
   }
 }
 @media (min-width: 992px) {
@@ -639,7 +639,7 @@ a.main-button:hover {
   }
   #navbars {
     margin-top: 10px;
-    background: var(--ivory);
+    background: var(--lychee);
   }
 }
 
@@ -652,11 +652,11 @@ a.main-button:hover {
   border-radius: var(--whole-cream);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--sakura);
+  background: var(--raspberry);
   border-radius: var(--whole-cream);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--candy);
+  background: var(--cherry);
 }
 
 /* Hero section */
@@ -686,7 +686,7 @@ a.main-button:hover {
   font-weight: var(--ice);
   line-height: var(--light-sugar);
   letter-spacing: var(--extra-whip);
-  color: var(--amethyst) !important;
+  color: var(--juniper) !important;
   text-align: center;
   margin-bottom: 36px;
 }
@@ -695,10 +695,10 @@ a.main-button:hover {
   font-weight: var(--extra-ice);
   background: linear-gradient(
     -45deg,
-    var(--sakura),
-    var(--amethyst),
-    var(--sakura),
-    var(--amethyst)
+    var(--raspberry),
+    var(--juniper),
+    var(--raspberry),
+    var(--juniper)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -711,7 +711,7 @@ a.main-button:hover {
   font-weight: var(--light-ice);
   line-height: var(--light-sugar);
   letter-spacing: var(--no-whip);
-  color: var(--graphite);
+  color: var(--olive);
   margin-bottom: 40px;
   position: relative;
 }
@@ -738,7 +738,7 @@ a.main-button:hover {
 }
 @media (max-width: 820px) {
   .welcome-area {
-    background: var(--ivory);
+    background: var(--lychee);
   }
   .welcome-area .header-text {
     top: 55% !important;
@@ -786,7 +786,7 @@ a.main-button:hover {
 .features-small-item {
   cursor: none;
   display: block;
-  background: var(--ivory);
+  background: var(--lychee);
   box-shadow: var(--decaf);
   border-radius: var(--heavy-cream);
   padding: 30px 38px;
@@ -806,7 +806,7 @@ a.main-button:hover {
 
 .features-small-item:focus .icon,
 .features-small-item:hover .icon {
-  background-color: var(--blush);
+  background-color: var(--cranberry);
 }
 .features-small-item .icon {
   -webkit-transition: var(--default);
@@ -816,18 +816,18 @@ a.main-button:hover {
   margin: auto;
   position: relative;
   margin-bottom: 10px;
-  background: var(--ivory);
+  background: var(--lychee);
   -webkit-border-radius: var(--oat);
   border-radius: var(--oat);
 }
 .features-small-item .icon i {
   font-size: var(--short);
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .features-small-item .features-title {
   font-weight: var(--ice);
   font-size: var(--short);
-  color: var(--obsidian);
+  color: var(--date);
   letter-spacing: var(--whip);
   margin-bottom: 15px;
   position: relative;
@@ -839,7 +839,7 @@ a.main-button:hover {
   font-weight: var(--light-ice);
   line-height: var(--light-sugar);
   letter-spacing: var(--whip);
-  color: var(--graphite);
+  color: var(--olive);
   position: relative;
   z-index: 2;
   text-align: left;
@@ -895,7 +895,7 @@ a.main-button:hover {
   width: 140%;
   height: 140%;
   opacity: 1;
-  background: var(--amethyst);
+  background: var(--juniper);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -917,7 +917,7 @@ a.main-button:hover {
 }
 .mini .mini-content .info {
   text-align: center;
-  color: var(--ivory);
+  color: var(--lychee);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -928,7 +928,7 @@ a.main-button:hover {
   margin-bottom: 5px;
 }
 .mini .mini-content .info h1 {
-  color: var(--ivory);
+  color: var(--lychee);
   font-weight: var(--ice);
   font-size: var(--grande);
   letter-spacing: var(--extra-whip);
@@ -939,7 +939,7 @@ a.main-button:hover {
   font-weight: var(--light-ice);
   line-height: var(--light-sugar);
   letter-spacing: var(--no-whip);
-  color: var(--ivory);
+  color: var(--lychee);
   margin-bottom: 40px;
 }
 .mini .mini-content .info p span {
@@ -947,7 +947,7 @@ a.main-button:hover {
 }
 .mini .mini-content .mini-box {
   display: block;
-  background: var(--ivory);
+  background: var(--lychee);
   padding: 10px;
   border-radius: var(--heavy-cream);
   box-shadow: var(--decaf);
@@ -965,7 +965,7 @@ a.main-button:hover {
   content: "";
   position: absolute;
   z-index: -1;
-  background: var(--ivory);
+  background: var(--lychee);
   width: 100%;
   opacity: 0.15;
   height: 100%;
@@ -984,7 +984,7 @@ a.main-button:hover {
   display: block;
   font-weight: var(--ice);
   font-size: var(--demi);
-  color: var(--obsidian);
+  color: var(--date);
   letter-spacing: var(--whip);
   margin-bottom: 15px;
   margin-top: 15px;
@@ -1003,7 +1003,7 @@ a.main-button:hover {
   width: 140%;
   height: 140%;
   opacity: 1;
-  background: var(--amethyst);
+  background: var(--juniper);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1072,7 +1072,7 @@ a.main-button:hover {
   font-size: 36px;
   letter-spacing: var(--no-whip);
   margin-bottom: 10px;
-  color: var(--ivory);
+  color: var(--lychee);
   margin-top: 100px;
   -webkit-transition: var(--default);
   transition: var(--default);
@@ -1094,7 +1094,7 @@ a.main-button:hover {
   font-size: var(--short);
   font-weight: var(--light-ice);
   letter-spacing: var(--extra-whip);
-  color: var(--ivory);
+  color: var(--lychee);
   display: block;
   text-align: center;
 }
@@ -1105,7 +1105,7 @@ a.main-button:hover {
     height: 100%;
   }
   .counter .content {
-    background: var(--amethyst);
+    background: var(--juniper);
     transition: background-position 1s;
     background-image: var(--white-pattern);
     background-position: 0 50%;
@@ -1161,7 +1161,7 @@ a.main-button:hover {
 /* Testimonials */
 @media (max-width: 991px) {
   #testimonials {
-    background-color: var(--ivory);
+    background-color: var(--lychee);
     background-image: var(--colored-pattern);
     background-position: 0 0, 50% 50%;
     background-size: auto, cover;
@@ -1169,7 +1169,7 @@ a.main-button:hover {
   }
 }
 .team-item {
-  background: var(--ivory);
+  background: var(--lychee);
   box-shadow: var(--decaf);
   border-radius: var(--heavy-cream);
   position: relative;
@@ -1186,7 +1186,7 @@ a.main-button:hover {
 .team-item i {
   display: block;
   font-size: var(--grande);
-  color: var(--amethyst);
+  color: var(--juniper);
   text-align: center;
 }
 .team-item .user-image {
@@ -1209,7 +1209,7 @@ a.main-button:hover {
   font-size: var(--demi);
   font-weight: var(--ice);
   letter-spacing: var(--no-whip);
-  color: var(--obsidian);
+  color: var(--date);
   display: block;
   margin-bottom: 5px;
 }
@@ -1217,7 +1217,7 @@ a.main-button:hover {
   font-size: var(--have-here);
   font-weight: var(--light-ice);
   letter-spacing: var(--no-whip);
-  color: var(--graphite);
+  color: var(--olive);
   display: block;
 }
 
@@ -1226,7 +1226,7 @@ a.main-button:hover {
   font-weight: var(--light-ice);
   line-height: var(--sugar);
   letter-spacing: var(--whip);
-  color: var(--graphite);
+  color: var(--olive);
   margin: 15px 0px;
 }
 .team-item .team-content .testi-heading {
@@ -1234,13 +1234,13 @@ a.main-button:hover {
   font-weight: 500 !important;
   margin-top: 10px !important;
   margin-bottom: -10px !important;
-  color: var(--obsidian) !important;
+  color: var(--date) !important;
 }
 
 /* Pricing */
 .pricing-item {
   font-size: var(--demi);
-  background: var(--ivory);
+  background: var(--lychee);
   box-shadow: var(--decaf);
   border-radius: var(--heavy-cream);
   margin-bottom: 30px;
@@ -1256,19 +1256,19 @@ a.main-button:hover {
   position: relative;
 }
 .pricing-item.active .pricing-header .pricing-title {
-  color: var(--obsidian);
+  color: var(--date);
 }
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: var(--sakura);
+  background-color: var(--raspberry);
 }
 .pricing-item.active .pricing-body .price-wrapper .currency {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .pricing-item.active .pricing-body .price-wrapper .price {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .pricing-item.active .pricing-body .price-wrapper .period {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .pricing-item .pricing-header {
   text-align: center;
@@ -1280,7 +1280,7 @@ a.main-button:hover {
   font-size: var(--short);
   font-weight: var(--ice);
   letter-spacing: var(--extra-whip);
-  color: var(--obsidian);
+  color: var(--date);
   width: 180px;
   height: 30px;
   left: 0;
@@ -1293,7 +1293,7 @@ a.main-button:hover {
 .pricing-item .pricing-body .price-wrapper {
   text-align: center;
   padding: 20px 0px;
-  background: var(--amethyst);
+  background: var(--juniper);
   width: 100%;
   margin: auto;
   margin-bottom: 40px;
@@ -1303,7 +1303,7 @@ a.main-button:hover {
 .pricing-item .pricing-body .price-wrapper .currency {
   font-size: var(--grande);
   font-weight: var(--ice);
-  color: var(--ivory);
+  color: var(--lychee);
   height: 47px;
   position: relative;
   top: -1px;
@@ -1311,13 +1311,13 @@ a.main-button:hover {
 .pricing-item .pricing-body .price-wrapper .price {
   font-size: var(--grande);
   font-weight: var(--ice);
-  color: var(--ivory);
+  color: var(--lychee);
   font-feature-settings: "pnum" on, "lnum" on;
 }
 .pricing-item .pricing-body .price-wrapper .period {
   font-size: var(--have-here);
   font-weight: var(--light-ice);
-  color: var(--ivory);
+  color: var(--lychee);
   display: block;
   letter-spacing: var(--extra-whip);
 }
@@ -1326,13 +1326,13 @@ a.main-button:hover {
   font-weight: var(--ice);
   letter-spacing: var(--whip);
   text-align: center;
-  color: var(--graphite);
+  color: var(--olive);
   margin-bottom: 16px;
 }
 .pricing-item .pricing-body .list li.active {
   font-weight: var(--ice);
   text-decoration: none;
-  color: var(--graphite);
+  color: var(--olive);
 }
 .pricing-item .pricing-footer {
   text-align: center;
@@ -1361,19 +1361,19 @@ a.main-button:hover {
   font-size: var(--short);
   font-weight: var(--ice);
   letter-spacing: var(--whip);
-  color: var(--obsidian);
+  color: var(--date);
   margin-bottom: 15px !important;
   -webkit-transition: var(--default);
   transition: var(--default);
 }
 .blog-post-thumb:focus h3 a,
 .blog-post-thumb:hover h3 a {
-  color: var(--sakura);
+  color: var(--raspberry);
 }
 .blog-post-thumb .text {
   line-height: var(--light-sugar);
   letter-spacing: var(--whip);
-  color: var(--graphite);
+  color: var(--olive);
   margin-bottom: 10px;
 }
 @media (max-width: 991px) {
@@ -1414,7 +1414,7 @@ a.main-button:hover {
 #contact-us h2:first-child {
   font-size: var(--short);
   letter-spacing: var(--whip);
-  color: var(--orchid);
+  color: var(--strawberry);
   margin-bottom: 12px;
 }
 @media (max-width: 991px) {
@@ -1430,13 +1430,13 @@ a.main-button:hover {
 
 .email {
   font-weight: var(--light-ice);
-  color: var(--orchid);
+  color: var(--strawberry);
   transition: var(--default);
 }
 
 .email:hover,
 .email:focus {
-  color: var(--candy);
+  color: var(--cherry);
 }
 
 .email i {
@@ -1451,7 +1451,7 @@ a.main-button:hover {
 footer {
   padding-top: 30px;
   background-size: 400% 400%;
-  background-color: var(--aubergine);
+  background-color: var(--mulberry);
 }
 footer .social {
   overflow: hidden;
@@ -1463,9 +1463,9 @@ footer .social li {
   display: inline-block;
 }
 footer .social li a {
-  color: var(--aubergine);
+  color: var(--mulberry);
   text-align: center;
-  background-color: var(--ivory);
+  background-color: var(--lychee);
   width: 36px;
   height: 36px;
   line-height: var(--extra-sugar);
@@ -1477,8 +1477,8 @@ footer .social li a {
 }
 footer .social li a:focus,
 footer .social li a:hover {
-  background-color: var(--sakura);
-  color: var(--ivory);
+  background-color: var(--raspberry);
+  color: var(--lychee);
 }
 footer .copyright {
   text-align: center;
@@ -1487,7 +1487,7 @@ footer .copyright {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: var(--have-here);
-  color: var(--ivory);
+  color: var(--lychee);
   letter-spacing: var(--extra-whip);
   font-weight: var(--light-ice);
 }
@@ -1507,8 +1507,8 @@ footer .copyright {
   overflow: hidden;
   background-image: linear-gradient(
     135deg,
-    var(--sakura) 0,
-    var(--amethyst) 100%
+    var(--raspberry) 0,
+    var(--juniper) 100%
   );
   left: 0;
   right: 0;
@@ -1516,7 +1516,7 @@ footer .copyright {
   bottom: 0;
   position: fixed;
   z-index: 9999;
-  color: var(--ivory);
+  color: var(--lychee);
 }
 #preloader .jumper {
   left: 0;
@@ -1530,7 +1530,7 @@ footer .copyright {
   height: 50px;
 }
 #preloader .jumper > div {
-  background-color: var(--ivory);
+  background-color: var(--lychee);
   width: 10px;
   height: 10px;
   border-radius: var(--soy);
@@ -1586,23 +1586,23 @@ footer .copyright {
 
 @media (max-width: 719px) {
   .welcome-area {
-    background: var(--ivory);
+    background: var(--lychee);
   }
 }
 .section-title {
-  color: var(--obsidian);
+  color: var(--date);
   transition: color 0.5s;
 }
 .section-title:focus,
 .section-title:hover {
-  color: var(--amethyst);
+  color: var(--juniper);
 }
 #standard {
-  background-color: var(--sakura);
+  background-color: var(--raspberry);
 }
 a#standard:focus,
 a#standard:hover {
-  background-color: var(--amethyst);
+  background-color: var(--juniper);
 }
 #hithere {
   margin-bottom: 15px;
@@ -1636,13 +1636,13 @@ a#standard:hover {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: var(--sakura);
+  background: var(--raspberry);
   overflow: hidden;
   transition: var(--default);
 }
 .chat-blob:focus,
 .chat-blob:hover {
-  background: var(--candy);
+  background: var(--cherry);
   transform: translateY(-7.5px);
   box-shadow: none;
 }
@@ -1679,34 +1679,34 @@ a#standard:hover {
   text-align: center;
   font-size: var(--demi);
   letter-spacing: var(--extra-whip);
-  color: var(--ivory);
+  color: var(--lychee);
   font-weight: var(--light-ice);
 }
 
 /* Version 2.0 */
 #pricing-plans {
-  background: var(--lilac);
+  background: var(--damson);
 }
 .div-zoom a {
   cursor: none;
   overflow: none;
 }
 .mailto {
-  color: var(--orchid);
+  color: var(--strawberry);
   letter-spacing: var(--extra-whip);
   font-weight: var(--light-ice);
   transition: var(--default);
 }
 .mailto:focus,
 .mailto:hover {
-  color: var(--candy);
+  color: var(--cherry);
 }
 .copyright .fas {
-  color: var(--ivory);
+  color: var(--lychee);
 }
 .copyright .fas:focus,
 .copyright .fas:hover {
-  color: var(--sakura);
+  color: var(--raspberry);
   cursor: none;
 }
 img {
@@ -1718,8 +1718,8 @@ img {
   margin-top: 2.5rem;
 }
 .project-button {
-  color: var(--veronica);
-  background-color: var(--ivory);
+  color: var(--currant);
+  background-color: var(--lychee);
   letter-spacing: var(--no-whip);
   transition: var(--default);
   font-size: var(--have-here);
@@ -1729,7 +1729,7 @@ img {
 
 .project-button:focus,
 .project-button:hover {
-  color: var(--veronica);
+  color: var(--currant);
 }
 .project-button i {
   transition: var(--transform);
@@ -1760,10 +1760,10 @@ h2 {
   padding-bottom: 10px !important;
 }
 .skills .mini-content .info h1 {
-  color: var(--obsidian);
+  color: var(--date);
 }
 .skills .mini-content .info p {
-  color: var(--graphite);
+  color: var(--olive);
 }
 .colored-bg {
   background-image: var(--colored-pattern);
@@ -1783,7 +1783,7 @@ h2 {
 .left-text {
   font-size: var(--demi);
   margin-top: 1.5rem;
-  color: var(--graphite);
+  color: var(--olive);
   font-weight: var(--light-ice);
   line-height: var(--light-sugar);
   margin-bottom: 3rem;
@@ -1810,7 +1810,7 @@ h2 {
 }
 .left-text a:focus,
 .left-text a:hover {
-  color: var(--veronica);
+  color: var(--currant);
 }
 
 /* Backgrounds */
@@ -1823,7 +1823,7 @@ h2 {
   }
 }
 .lilac {
-  background-color: var(--lilac);
+  background-color: var(--damson);
 }
 
 /* Sections */
@@ -1831,16 +1831,19 @@ h2 {
 /* About */
 @media (min-width: 991px) {
   .about-features {
-    background-color: var(--lilac);
+    background-color: var(--damson);
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
   }
 }
 @media (max-width: 991px) {
   .about-features {
-    background-color: var(--lilac);
+    background-color: var(--damson);
     padding-top: 5rem !important;
     padding-bottom: 2.5rem !important;
+  }
+  .xtra-pad {
+    padding-top: 5rem !important;
   }
 }
 .grayscale {
@@ -1908,7 +1911,7 @@ h2 {
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: var(--graphite);
+  color: var(--olive);
   letter-spacing: var(--extra-whip);
   text-decoration: none;
   transition: var(--default);
@@ -1926,7 +1929,7 @@ h2 {
   width: 20px;
   height: 31px;
   margin-left: -15px;
-  border: 2px solid var(--amethyst);
+  border: 2px solid var(--juniper);
   border-radius: var(--breve);
   box-sizing: border-box;
 }
@@ -1938,7 +1941,7 @@ h2 {
   width: 3px;
   height: 5px;
   margin-left: -3px;
-  background-color: var(--amethyst);
+  background-color: var(--juniper);
   border-radius: var(--oat);
   box-sizing: border-box;
 }
@@ -1988,11 +1991,11 @@ h2 {
 /* Highlight on hover */
 .sakura:hover,
 .sakura:focus {
-  color: var(--sakura);
+  color: var(--raspberry);
 }
 .amethyst:hover,
 .amethyst:focus {
-  color: var(--sakura);
+  color: var(--raspberry);
 }
 /* Highlight texts */
 .highlight {
@@ -2000,12 +2003,12 @@ h2 {
 }
 .highlight:hover,
 .highlight:focus {
-  color: var(--veronica);
+  color: var(--currant);
 }
 
 /* Colored Backgrounds */
 .lilac {
-  background-color: var(--lilac) !important;
+  background-color: var(--damson) !important;
 }
 
 .colored-pattern {

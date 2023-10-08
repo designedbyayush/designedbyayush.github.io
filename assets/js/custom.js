@@ -125,7 +125,7 @@ $(document).ready(function () {
 
   // If the browser isn't Firefox, enable the hover effect
   if (!isFirefox) {
-    $(".typeform-share").hover(
+    $(".contact-me").hover(
       function () {
         if ($(window).width() >= 991) {
           $("#contact-us").css(
